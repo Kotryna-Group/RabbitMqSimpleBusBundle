@@ -3,9 +3,10 @@
     "type": "symfony-bundle",
     "description": "Integrates RabbitMQ with SimpleBus.",
     "license": "MIT",
+    "version": "v.1.1.1",
     "require": {
         "php": "^7.1",
-        "php-amqplib/rabbitmq-bundle": "^1.12",
+        "php-amqplib/rabbitmq-bundle": "^1.12 || ^2.0",
         "simple-bus/message-bus": "^3.0",
         "simple-bus/symfony-bridge": "^5.1",
         "symfony/monolog-bundle": "^3.1"
