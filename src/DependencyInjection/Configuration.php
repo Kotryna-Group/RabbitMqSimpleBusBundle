@@ -14,8 +14,8 @@ final class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('rabbitmq_simplebus');
+        $treeBuilder = new TreeBuilder('rabbitmq_simplebus');
+        $rootNode = $treeBuilder->getRootNode();
 
         return $treeBuilder;
     }
